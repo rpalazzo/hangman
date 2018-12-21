@@ -49,9 +49,8 @@ while strikes < 10 and "_" in secret_display:
 
 if strikes == 10:
     print("Game over: You got hung")
-    print("The word was ", secret_word)
 else:
     print("Game over: You WIN!")
 
-
+print("The word is", secret_word)
 
